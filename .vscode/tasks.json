@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/aoc2022.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile",
+            "isBuildCommand": true
+        },
+        {
+            "label": "run",
+            "command": "${workspaceFolder}/bin/Debug/net7.0/aoc2022.exe",
+            "type": "process",
+            "problemMatcher": "$msCompile",
+            "dependsOn":["build"]
+        }
+    ]
+}
