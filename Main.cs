@@ -13,4 +13,7 @@ Console.WriteLine(Day3.GetDay3Output());
 Console.WriteLine();
 Console.WriteLine(" **** Day 4 **** ");
 Console.WriteLine(Day4.GetDay4Output());
+Console.WriteLine();
+Console.WriteLine(" **** Day 5 **** ");
+Console.WriteLine(Day5.GetDay5Output()); 
 Console.ReadLine();
