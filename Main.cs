@@ -28,4 +28,7 @@ Console.WriteLine(Day8.GetDay8Output());
 Console.WriteLine();
 Console.WriteLine(" **** Day 9 **** ");
 Console.WriteLine(Day9.GetDay9Output());
+Console.WriteLine();
+Console.WriteLine(" **** Day 10 **** ");
+Console.WriteLine(Day10.GetDay10Output());
 Console.ReadLine();
